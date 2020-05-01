@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: junitdemo.sampletest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE! - in junitdemo.sampletest
+simpleTestFail(junitdemo.sampletest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at junitdemo.sampletest.simpleTestFail(sampletest.java:20)
+
